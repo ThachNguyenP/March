@@ -1,0 +1,67 @@
+$blue: #4499dd;
+$orange: #ffa000;
+$green: #77dd44;
+$back: $blue;
+$task: white;
+$shadow: rgba(0,0,0,0.3);
+$button: darken($back, 12);
+$btnText: white;
+
+// ui
+body {
+  background-color: darken($back, 30);
+  font-family: HelveticaNeue;
+  font-weight: 100;
+}
+h2 {
+  font-size: 14pt;
+  font-weight: 200;
+  padding: 3px 12px;
+  color: darken($back, 30);
+}
+.btn {
+  display: inline-block;
+  background-color: $button;
+  color: $btnText;
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+// board
+.column{
+  background-color: $back;
+  min-height: 100px;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px $shadow;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+}
+
+// cards
+.task{
+  background-color: $task;
+  width: 80%;
+  height: 30px;
+  margin: 2px 5%;
+  padding: 6px 5%;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px $shadow;
+}
+.picked{
+  box-shadow: 3px 3px 3px $shadow;
+  transform: rotate(7deg);
+  -webkit-transform: rotate(-7deg);
+}
+.shaded {
+  box-shadow: none;
+  background: darken($back, 40%);
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
