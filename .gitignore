@@ -6,7 +6,6 @@
 .byebug_history
 /config/database.yml
 /db/schema.rb
-Gemfile.lock
 /vendor/bundle
 /public/uploads/*
 /public/logo_header.png
