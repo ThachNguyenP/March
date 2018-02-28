@@ -23,3 +23,4 @@ config/environments/*.local.yml
 # File is generated when running sidekiq
 dump.rdb
 /lib/tasks/my_task.rake
+/bin
