@@ -3,7 +3,7 @@
 root = "/home/March/current"
 working_directory root
 
-pid "/home/March/shared/tmp/pids/unicorn.pid"
+pid "#{root}/tmp/pids/unicorn.pid"
 
 stderr_path "/home/March/current/log/unicorn.stderror.log"
 stdout_path "/home/March/current/log/unicorn.stdout.log"
@@ -12,7 +12,7 @@ worker_processes 1
 timeout 30
 preload_app true
 
-listen '/home/March/shared/tmp/sockets/unicorn.March.sock', backlog: 64
+listen '/tmp/unicorn.March.sock', backlog: 64
 
 before_fork do |server, worker|
   Signal.trap 'TERM' do
