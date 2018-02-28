@@ -1,6 +1,6 @@
 # root = File.expand_path(File.dirname(__FILE__) + '/../')
 
-root = "/home/dingo/current"
+root = "/home/March/current"
 working_directory root
 
 pid "/home/March/shared/tmp/pids/unicorn.pid"
