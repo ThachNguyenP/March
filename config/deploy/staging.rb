@@ -2,7 +2,7 @@ server "35.196.91.83",
   user: "root",
   roles: %w{web db app},
   ssh_options: {
-    keys: %w(~/.ssh/id_rsa),
+    keys: %w(~/.ssh/gg_cloud_duydy),
     forward_agent: false,
     auth_methods: %w(publickey password)
     # password: "please use keys"
