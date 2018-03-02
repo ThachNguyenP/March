@@ -34,6 +34,7 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/syst
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
 
+
 # Default value for local_user is ENV['USER']
 # set :local_user, -> { `git config user.name`.chomp }
 
