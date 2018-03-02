@@ -21,7 +21,8 @@ gem 'slim-rails'
 gem 'jquery-ui-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'sprockets'
+gem 'bootstrap-sass', '3.2.0.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

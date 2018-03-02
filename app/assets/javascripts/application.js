@@ -16,3 +16,5 @@
 // require_tree .
 //= require trello
 // require jquery-ui
+@import "bootstrap-sprockets";
+@import "bootstrap";
